@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './ui/shared/nav-bar/nav-bar.component';
+import { HeaderComponent } from './ui/shared/header/header.component';
+import { SectionTitleComponent } from './ui/shared/section-title/section-title.component';
+import { TaskComponent } from './ui/shared/task/task.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    HeaderComponent,
+    SectionTitleComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule,
