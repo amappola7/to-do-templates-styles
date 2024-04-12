@@ -7,6 +7,8 @@ import { NavBarComponent } from './ui/shared/nav-bar/nav-bar.component';
 import { HeaderComponent } from './ui/shared/header/header.component';
 import { SectionTitleComponent } from './ui/shared/section-title/section-title.component';
 import { TaskComponent } from './ui/shared/task/task.component';
+import { CreateTaskComponent } from './ui/pages/create-task/create-task.component';
+import { ToDoListComponent } from './ui/pages/to-do-list/to-do-list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { TaskComponent } from './ui/shared/task/task.component';
     NavBarComponent,
     HeaderComponent,
     SectionTitleComponent,
-    TaskComponent
+    TaskComponent,
+    CreateTaskComponent,
+    ToDoListComponent
   ],
   imports: [
     BrowserModule,
