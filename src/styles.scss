@@ -5,9 +5,9 @@ $dark-color: #171D2C;
 $low-priority-color: #8ac926;
 $medium-priority-color: #ffca3a;
 $high-priority-color: #ff595e;
+$grey: #9ba0ab;
 $font-family: "League Spartan", sans-serif;
-$border-radius: 2rem;
-$border-radius-small: 0.5rem;
+$border: solid 0.18rem $tertiary-color;
 
 @mixin displayFlex(
   $flex-direction: row,
@@ -36,6 +36,8 @@ html {
 }
 
 .btn {
+  width: fit-content;
+  height: 4rem;
   border: none;
   outline: none;
   font-size: 1.8rem;

@@ -1,0 +1,29 @@
+@import '../../../../styles.scss';
+
+section {
+  @include displayFlex(row, flex-start, center);
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+
+  .toDo-list-page__container {
+    @include displayFlex(row, center, center);
+    width: calc(100% - 28rem);
+    height: 100%;
+
+    .toDo-list__container {
+      @include displayFlex(column, center, center, 1.5rem);
+      width: 60rem;
+
+      .section-title__container {
+        width: 90%;
+      }
+
+      .tasks__container {
+        width: 90%;
+      }
+    }
+  }
+}
